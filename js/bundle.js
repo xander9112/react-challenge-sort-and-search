@@ -112,7 +112,7 @@
 	      activeUser: {}
 	    };
 
-	    _this.serverRequest = $.get('/data.json', function (result) {
+	    _this.serverRequest = $.get('data.json', function (result) {
 	      this.setState({
 	        data: result,
 	        users: result
@@ -14770,7 +14770,7 @@
 	 *
 	 * @providesModule shallowEqual
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
