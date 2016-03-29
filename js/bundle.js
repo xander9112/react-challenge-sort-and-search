@@ -20012,7 +20012,7 @@
 	      var list = [];
 
 	      this.props.data.forEach(function (user) {
-	        user.imageSrc = '/images/' + user.image + '.svg';
+	        user.imageSrc = 'images/' + user.image + '.svg';
 
 	        list.push(_react2.default.createElement(_UserData2.default, { data: user, initActiveUser: _this2.props.initActiveUser, key: user.id }));
 	      });
